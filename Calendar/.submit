@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC216
+#  Project Project #4: Calendar
+
+courseName=CMSC216
+semester=202305
+projectNumber=Project #4
+courseKey=f21d4d3c5e8b0a73
+authentication.type=cas
+baseURL=https://submit.cs.umd.edu:443/summer2023
+submitURL=https://submit.cs.umd.edu:443/summer2023/eclipse/SubmitProjectViaEclipse
