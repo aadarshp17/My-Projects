@@ -1,0 +1,61 @@
+============== One ==============
+Title: "How to Draw in Java Tutorial"
+Url: https://www.youtube.com/embed/ifVf9ejuFWI
+Duration (minutes): 17
+Genre: Educational
+Comments: [Nice video, Recommended]
+
+============== Two ==============
+Playlist Name: Favorites
+VideoTitles: [How to Draw in Java Tutorial, How to Draw in Java Tutorial, Hello]
+After remove
+Playlist Name: Favorites
+VideoTitles: [Hello]
+
+============== Three ==============
+[Title: "How to Draw in Java Tutorial"
+Url: https://www.youtube.com/embed/ifVf9ejuFWI
+Duration (minutes): 17
+Genre: Educational
+, Title: "Git & GitHub Crash Course for Beginners"
+Url: https://www.youtube.com/embed/SWYqp7iY_Tc
+Duration (minutes): 33
+Genre: Educational
+]
+
+============== Cuatro ==============
+[Title: "Lionel Richie - Dancing On The Ceiling"
+Url: https://www.youtube.com/embed/ovo6zwv6DX4
+Duration (minutes): 6
+Genre: Music
+, Title: "One Day More"
+Url: https://www.youtube.com/embed/ANyQEmhvs2I
+Duration (minutes): 4
+Genre: Music
+, Title: "Better brain health | DW Documentary"
+Url: https://www.youtube.com/embed/TLpbfOJ4bJU
+Duration (minutes): 43
+Genre: Documentary
+]
+Displaying Playlist
+Playlist Name: ToWatch
+VideoTitles: [One Day More]
+
+***** Statistics *****
+Number of video entries: 3
+Number of playlists: 1
+Genre "Comedy" count 0
+Genre "Educational" count 0
+Genre "Documentary" count 1
+Genre "Music" count 2
+Genre "FilmAnimation" count 0
+
+============== Five ==============
+Playlist Resulting from Search
+Playlist Name: Music Videos
+VideoTitles: [Lionel Richie - Dancing On The Ceiling, One Day More]
+
+============== Six ==============
+Playlist Name: MySelection
+VideoTitles: [One Day More, Better brain health | DW Documentary]
+File sampleHTML.html has HTML for playlist

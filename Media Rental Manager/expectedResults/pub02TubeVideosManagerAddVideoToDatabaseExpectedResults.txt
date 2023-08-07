@@ -1,0 +1,9 @@
+[Title: "How to Draw in Java Tutorial"
+Url: https://www.youtube.com/embed/ifVf9ejuFWI
+Duration (minutes): 17
+Genre: Educational
+, Title: "Git & GitHub Crash Course for Beginners"
+Url: https://www.youtube.com/embed/SWYqp7iY_Tc
+Duration (minutes): 33
+Genre: Educational
+]

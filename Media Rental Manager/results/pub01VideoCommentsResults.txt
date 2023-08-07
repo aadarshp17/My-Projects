@@ -1,0 +1,6 @@
+Title: "How to Draw in Java Tutorial"
+Url: https://www.youtube.com/embed/ifVf9ejuFWI
+Duration (minutes): 17
+Genre: Educational
+
+[Nice video, Recommended]

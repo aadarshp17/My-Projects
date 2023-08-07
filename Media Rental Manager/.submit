@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC132
+#  Project Project #1: TubeVideosManager
+
+courseName=CMSC132
+semester=202301
+projectNumber=Project #1
+courseKey=00331e7c7659c2d4
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2023
+submitURL=https://submit.cs.umd.edu:443/spring2023/eclipse/SubmitProjectViaEclipse
