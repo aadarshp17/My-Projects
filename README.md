@@ -2,7 +2,7 @@
 
 # Installation
 
-The Online Grading System, Online Orders Processor, Media Rental Manager, and Clear Cells game are written in Java, so they will require the user to install Eclipse.
+The Online Grading System, Online Orders Processor, Media Rental Manager, and Clear Cells game are all projects that were written in Java, so they will require the user to install Eclipse.
 
 Eclipse Installation guide: https://www.eclipse.org/downloads/packages/installer#:~:text=5%20Steps%20to%20Install%20Eclipse%201%201.%20Download,installation%20folder%20...%205%205.%20Launch%20Eclipse%20 
 
