@@ -1,5 +1,5 @@
 # My-Projects
-
+All projects are private, so please request access by emailing aadarshp77@gmail.com.
 # Installation
 
 The Online Grading System, Online Orders Processor, Media Rental Manager, and Clear Cells game are all projects that were written in Java, so they will require the user to install Eclipse and import the project.
