@@ -1,20 +1,8 @@
-# Project 5: MicroCaml Optimizer and Type Checker
-
-> [!NOTE]
-> **Due**: April 25th, 2024, 11:59PM (Late: April 26th, 2024, 11:59PM) \
-> **Points**: 50 public, 50 semipublic
-
-> [!IMPORTANT]
-> In order to utilize some of the new functionality built in to this project, you must install the following `opam` package(s):
-> 
-> ```sh
-> opam install ppx_deriving
-> ```
-
+# MicroCaml Compiler 
 
 ## Introduction
 
-In project 4, you implemented MicroCaml — a *dynamically-typed* version of OCaml with a subset of its features. In this project, you will implement:
+In this project, I will implement:
 
 * An **optimizer** for MicroCaml, which simplifies the MicroCaml AST using constant folding and constant propagation
 * A **type checker** for MicroCaml, which verifies if a MicroCaml expression is well-typed before we run the code. If an expression passes the type checker, it will not cause type error when it runs.
@@ -109,13 +97,10 @@ let x = 42 in
 ```
 Continuing to propagate yields `1` . 
 
-You can assume all ASTs are valid OCaml expressions and will not cause an error during the optimization.
-
-Your optimizer should evaluate as much as possible. For many programs, it will be able to optimize the AST down
+The optimizer evaluates as much as possible. For many programs, it will be able to optimize the AST down
 to just a single node containing the value returned after running the program.
 
 > [!NOTE]
-> **How is this optimization different from the evaluator in Project 4?**
 > 
 > During evaluation, all variables are bound at some point (i.e. you can lookup the value of a variable in the environment). In the optimizer, variables may not be bound, but you'd still want to evaluate the expression as much as possible. For example, the optimizer will optimize `fun x:Int -> 1+2+3+4+x` to `fun x:Int -> 10+x`, whereas the evaluator will evaluate it a closure with the body of the function unmodified.
 
@@ -151,11 +136,11 @@ optimize [] (parse_expr ("0 * (1/0)"))
 
 ## Part (B): Type Checker
 
-The main purpose of a type system in a programming language is to reduce possibilities for bugs in the programs due to type errors. In this part of the project, you will implement a type checker for MicroCaml.
+The main purpose of a type system in a programming language is to reduce possibilities for bugs in the programs due to type errors. In this part of the project, I will implement a type checker for MicroCaml.
 
 ### AST
 
-Below is the AST type `expr`, which is returned by the parser. We provided the lexer and parser generators (ocamllex, ocamlyacc) for this project. You can use your own parser from Project 4, but you will have to update it according to the new AST:
+Below is the AST type `expr`, which is returned by the parser.
 ```ocaml
 (* Binary operators *)
 type op =
@@ -200,7 +185,7 @@ type expr =
 
 ### Subtyping (Optional Helper)
 
-Here we describe an optional helper that can be used in your typechecker:
+Here we describe an optional helper that can be used in the typechecker:
 
 #### `is_subtype : exptype -> exptype -> bool`
 
@@ -265,7 +250,7 @@ typecheck [] (parse_expr "1 + true") => (* Exception: TypeError *)
 ```
 
 ### Type Checking Rules
-In this section, we provide the type checking rules for the MicroCaml. They are similar to the operational semantics inference rules and directly translates to typechecking code. 
+In this section, I provide the type checking rules for the MicroCaml. They are similar to the operational semantics inference rules and directly translates to typechecking code. 
 
 $$ (var): \frac{\Gamma(x)=\tau}{\Gamma \vdash x:\tau } $$
 
@@ -389,7 +374,7 @@ Type = TInt
 
 ### Exceptions
 
-We've kept the same list of possible error cases and exceptions from Project 4, but have adapted the cases to meet the new requirements for `optimize` and `typecheck`:
+List of possible error cases and exceptions:
 
 ```ocaml
 exception TypeError of string
@@ -403,21 +388,8 @@ exception DivByZeroError
 * A `SelectError` happens when the typechecker is unable to select on a record when the key does not exist in the record.
 * A `DivByZeroError` happens on attempted division by zero in the optimizer.
 
-> [!NOTE]
-> We do not enforce what messages you use when raising a `TypeError`, `DeclareError`, or `SelectError`. That's up to you.
-
-### Ground Rules and Extra Info
-
-In addition to all of the built in OCaml features and feature we've taught about in class, you may also use library functions found in the Stdlib module, and List module. You are free to define your own typing environment. 
-
-### Testing & Submitting
+### Testing
 
 Submit by running `submit` after pushing your code to GitHub. 
 
-All tests will be run on direct calls to your code, comparing your return values to the expected return values. Any other output (e.g., for your own debugging) will be ignored. You will return `exception TypeError of string` if you detect a type error in the input AST. We recommend using relevant error messages when raising these exceptions in order to make debugging easier. We are not requiring intelligent messages that pinpoint an error to help a programmer debug, but as you do this project you might find you see where you could add those.
-
-To test from the toplevel, run `dune utop src`. The necessary functions and types will automatically be imported for you.
-
-## Academic Integrity
-
-Please **carefully read** the academic honesty section of the course syllabus. **Any evidence** of impermissible cooperation on projects, use of disallowed materials or resources, or unauthorized use of computer accounts, **will be** submitted to the Student Honor Council, which could result in an XF for the course, or suspension or expulsion from the University. This includes posting this project to GitHub after the course is over. Be sure you understand what you are and what you are not permitted to do in regards to academic integrity when it comes to project assignments. These policies apply to all students, and the Student Honor Council does not consider lack of knowledge of the policies to be a defense for violating them. Full information is found in the course syllabus, which you should review before starting.
+All tests will be run on direct calls to my code, comparing my return values to the expected return values. Any other output (e.g., for your own debugging) will be ignored. To test from the toplevel, run `dune utop src`. The necessary functions and types will automatically be imported for you.
