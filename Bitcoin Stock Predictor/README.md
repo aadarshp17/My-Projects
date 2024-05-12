@@ -12,4 +12,4 @@ This project aims to predict Bitcoin prices using machine learning techniques. B
 - pip package manager
 
 ### Setting Up the Environment
-- Upload the Bitcoin_Stock_Predictor.ipynb to a Google Collab notebook
+- Upload the Bitcoin_Stock_Predictor.ipynb file to a Google Collab notebook.
