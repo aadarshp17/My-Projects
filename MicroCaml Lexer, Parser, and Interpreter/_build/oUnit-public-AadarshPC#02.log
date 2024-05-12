@@ -1,0 +1,92 @@
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:1:public_parser_expr_add1.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:1:public_parser_expr_add1 is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:1:public_parser_expr_add1.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:5:public_parser_expr_let_fun.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:5:public_parser_expr_let_fun is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:5:public_parser_expr_let_fun.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:9:public_parser_expr_simple_concat.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:9:public_parser_expr_simple_concat is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:9:public_parser_expr_simple_concat.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:11:public_parser_expr_simple_mult.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:11:public_parser_expr_simple_mult is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:11:public_parser_expr_simple_mult.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:14:public_parser_expr_single_and.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:14:public_parser_expr_single_and is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:14:public_parser_expr_single_and.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:18:public_parser_expr_single_let.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:18:public_parser_expr_single_let is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:18:public_parser_expr_single_let.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:23:public_parser_expr_single_string.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:23:public_parser_expr_single_string is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:23:public_parser_expr_single_string.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:25:public_parser_expr_record_empty.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Test public:25:public_parser_expr_record_empty exited with an error.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: P4.Types.InvalidInputException("bad call to fun_call.. tok_list: [Tok_LCurly, Tok_RCurly]") in test public:25:public_parser_expr_record_empty.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Raised at P4__Parser.utop in file "src/parser.ml", line 228, characters 22-142
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.mula in file "src/parser.ml", line 205, characters 19-36
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.jhn_expr in file "src/parser.ml", line 183, characters 19-28
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.seid in file "src/parser.ml", line 163, characters 19-32
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.ler_expr in file "src/parser.ml", line 133, characters 19-28
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.parse_qual_expr in file "src/parser.ml", line 113, characters 19-32
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.rote in file "src/parser.ml", line 98, characters 19-39
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.oeta_expr in file "src/parser.ml", line 83, characters 19-28
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.parse_expr in file "src/parser.ml", line 263, characters 38-46
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from TestUtils.run_test_expr in file "test/testUtils.ml", line 95, characters 20-51
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: 
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:25:public_parser_expr_record_empty.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:28:public_parser_expr_record3.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Test public:28:public_parser_expr_record3 exited with an error.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: P4.Types.InvalidInputException("bad call to fun_call.. tok_list: [Tok_LCurly, Tok_ID(\"length\"), Tok_Equal, Tok_Int(7), Tok_Semi, Tok_ID(\"height\"), Tok_Equal, Tok_Int(255), Tok_Semi, Tok_ID(\"color\"), Tok_Equal, Tok_String(\"Red\"), Tok_RCurly]") in test public:28:public_parser_expr_record3.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Raised at P4__Parser.utop in file "src/parser.ml", line 228, characters 22-142
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.mula in file "src/parser.ml", line 205, characters 19-36
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.jhn_expr in file "src/parser.ml", line 183, characters 19-28
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.seid in file "src/parser.ml", line 163, characters 19-32
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.ler_expr in file "src/parser.ml", line 133, characters 19-28
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.parse_qual_expr in file "src/parser.ml", line 113, characters 19-32
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.rote in file "src/parser.ml", line 98, characters 19-39
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.oeta_expr in file "src/parser.ml", line 83, characters 19-28
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Parser.parse_expr in file "src/parser.ml", line 263, characters 38-46
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from TestUtils.run_test_expr in file "test/testUtils.ml", line 95, characters 20-51
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: 
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:28:public_parser_expr_record3.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:32:public_parser_mutop_simple_def_and_let.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:32:public_parser_mutop_simple_def_and_let is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:32:public_parser_mutop_simple_def_and_let.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:37:public_eval_expr_double_fun.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:37:public_eval_expr_double_fun is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:37:public_eval_expr_double_fun.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:40:public_eval_expr_minus_one.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:40:public_eval_expr_minus_one is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:40:public_eval_expr_minus_one.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:44:public_eval_expr_simple_div.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:44:public_eval_expr_simple_div is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:44:public_eval_expr_simple_div.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:47:public_eval_expr_simple_sum.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:47:public_eval_expr_simple_sum is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:47:public_eval_expr_simple_sum.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:51:public_eval_expr_single_if.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:51:public_eval_expr_single_if is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:51:public_eval_expr_single_if.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:54:public_eval_expr_single_not.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:54:public_eval_expr_single_not is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:54:public_eval_expr_single_not.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:58:public_eval_expr_shadow.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:58:public_eval_expr_shadow is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:58:public_eval_expr_shadow.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:68:public_expr_select_expr.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Test public:68:public_expr_select_expr exited with an error.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: P4.Types.InvalidInputException("Invalid input") in test public:68:public_expr_select_expr.
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Raised at P4__Lexer.tokenize.keta in file "src/lexer.ml", line 89, characters 8-53
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from P4__Lexer.tokenize.keta in file "src/lexer.ml", line 62, characters 22-60
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from Dune__exe__Public.public_expr_select_expr in file "test/public/public.ml", line 222, characters 15-35
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-04T18:20:05+00:00 AadarshPC#02 E: 
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:68:public_expr_select_expr.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:69:public_mutop_nonempty_env.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:69:public_mutop_nonempty_env is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:69:public_mutop_nonempty_env.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Start test public:71:public_err_def_not_top_level.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: Test public:71:public_err_def_not_top_level is successful.
+2024-04-04T18:20:05+00:00 AadarshPC#02 I: End test public:71:public_err_def_not_top_level.
