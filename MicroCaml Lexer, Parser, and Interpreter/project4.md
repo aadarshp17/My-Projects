@@ -168,9 +168,6 @@ We present a quick overview of `parse_expr` first, then the definition of AST ty
 
   parse_expr [Tok_DoubleSemi] (* raises InvalidInputException *)
   ```
-
-I will likely want to implement My parser using the the `lookahead` and `match_tok` functions that we have provided; more about them is at the end of this README.
-
 ### AST and Grammar for `parse_expr`
 
 Below is the AST type `expr`, which is returned by `parse_expr`. **Note** that the `environment` and `Closure of environment * var * expr` parts are only relevant to Part (B), so I can ignore them for now.
@@ -199,7 +196,7 @@ type expr =
 and environment = (var * expr ref) list 
 ```
 
-The CFG below describes the language of MicroCaml expressions. This CFG is right-recursive, so something like `1 + 2 + 3` will parse as `Add (Int 1, Add (Int 2, Int 3))`, essentially implying parentheses in the form `(1 + (2 + 3))`.) In the given CFG note that all non-terminals are capitalized, all syntax literals (terminals) are formatted `as non-italicized code` and will come in to the parser as tokens from My lexer. Variant token types (i.e. `Tok_Bool`, `Tok_Int`, `Tok_String` and `Tok_ID`) will be printed *`as italicized code`*.
+The CFG below describes the language of MicroCaml expressions. This CFG is right-recursive, so something like `1 + 2 + 3` will parse as `Add (Int 1, Add (Int 2, Int 3))`, essentially implying parentheses in the form `(1 + (2 + 3))`.) In the given CFG note that all non-terminals are capitalized, all syntax literals (terminals) are formatted `as non-italicized code` and will come into the parser as tokens from my lexer. Variant token types (i.e. `Tok_Bool`, `Tok_Int`, `Tok_String` and `Tok_ID`) will be printed *`as italicized code`*.
 
 - Expr -> LetExpr | IfExpr | FunctionExpr | OrExpr
 - LetExpr -> `let` Recursion *`Tok_ID`* `=` Expr `in` Expr
@@ -360,9 +357,9 @@ Let ("f", false,
 
 ## Part A3: Parsing `mutop` directives
 
-In this part, I will implement `parse_mutop` (putting My code in [parser.ml](./src/parser.ml)) in accordance with the signature found in [parser.mli](./src/parser.mli). This function takes a token list produced by lexing a string that is a mutop (top-level) MicroCaml directive, and returns an AST of OCaml type `mutop`. My implementation of `parse_mutop` will reuse My `parse_expr` implementation, and will not be much extra work.
+In this part, I will implement `parse_mutop` (putting My code in [parser.ml](./src/parser.ml)) in accordance with the signature found in [parser.mli](./src/parser.mli). This function takes a token list produced by lexing a string that is a mutop (top-level) MicroCaml directive, and returns an AST of OCaml type `mutop`. My implementation of `parse_mutop` will reuse my `parse_expr` implementation, and will not be much extra work.
 
-We present a quick overview of the function first, then the definition of AST types it should return, and finally the grammar it should parse.
+I present a quick overview of the function first, then the definition of AST types it should return, and finally the grammar it should parse.
 
 #### `parse_mutop`
 - **Type:** `token list -> token list * mutop`
@@ -449,9 +446,7 @@ Expr (
     (String "parenthesis")))
 ```
 
-## Provided functions
-
-To help I implement both parsers, we have provided some helper functions in the `parser.ml` file. I are not required to use these, but they are recommended.
+## Helper functions
 
 ### `match_token`
 - **Type:** `token list -> token -> token list`
@@ -501,13 +496,11 @@ exception DivByZeroError
 - A `SelectError` happens when trying to select a nonexistent label from a record
 - A `DivByZeroError` happens on attempted division by zero
 
-Note that we do not enforce what messages I use when raising `TypeError`, `DeclareError`, or `SelectError` exceptions. That's up to I.
-
 ### Evaluation
 
 Evaluation of subexpressions should be done from left to right to ensure that lines with multiple possible errors match up with our expected errors.
 
-Now we describe what My interpreter should do for each kind of `expr`:
+Now I describe what my interpreter should do for each kind of `expr`:
 
 ```ocaml
 type expr =
@@ -644,7 +637,7 @@ eval_expr [] (Let ("f", true,
 
 #### Environments
 
-Being able to modify the placeholder is made possibly by using references; this is why the type `environment` given in `types.ml` is `(var * expr ref) list` and not `(var * expr) list`. To make it easy to work with this kind of environment, we recommend I use the functions given at the top of `eval.ml`:
+Being able to modify the placeholder is made possibly by using references; this is why the type `environment` given in `types.ml` is `(var * expr ref) list` and not `(var * expr) list`. To make it easy to work with this kind of environment:
 
 - `extend env x e` produces an environment that extends `env` with a mapping from `x` to `e`
 - `lookup env x` returns `e` if `x` maps to `e` in `env`; if there are multiple mappings, it chooses the most recent.
