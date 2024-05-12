@@ -1,10 +1,10 @@
 ## Introduction
 
-MicroCaml — a *dynamically-typed* version of OCaml with a subset of its features. Because MicroCaml is dynamically typed, it is not type checked at compile time. Like other scripting languages (such as Python and Ruby), type checking will take place when the program runs. As part of My implementation of MicroCaml, I will also implement parts of `mutop` (μtop or Microtop), a version of `utop` for MicroCaml.
+MicroCaml — a *dynamically-typed* version of OCaml with a subset of its features. Because MicroCaml is dynamically typed, it is not type-checked at compile time. Like other scripting languages (such as Python and Ruby), type-checking will take place when the program runs. As part of my implementation of MicroCaml, I will also implement parts of `mutop` (μtop or Microtop), a version of `utop` for MicroCaml.
 
 ### Part (A): Lexer & Parser
 
-In the first part of this project, I will implement a lexer and parser for MicroCaml. My lexer function will convert an input string of MicroCaml into a list of tokens, and My parser function will consume these tokens to produce an abstract symbol tree (AST), either for a MicroCaml expression, or for a `mutop` directive. 
+In the first part of my project, I will implement a lexer and parser for MicroCaml. My lexer function will convert an input string of MicroCaml into a list of tokens, and my parser function will consume these tokens to produce an abstract symbol tree (AST), either for a MicroCaml expression or for a `mutop` directive. 
 
 Here is an example call to the lexer and parser on a MicroCaml `mutop` directive (as a string):
 
@@ -12,7 +12,7 @@ Here is an example call to the lexer and parser on a MicroCaml `mutop` directive
 parse_mutop (tokenize "def b = let x = true in x;;")
 ```
 
-This will return the AST as the following OCaml value (which we will explain in due course):
+This will return the AST as the following OCaml value:
 
 ```ocaml
 Def ("b", Let ("x", false, (Bool true), ID "x"))
@@ -24,38 +24,15 @@ In the second part of this project, I will implement an interpreter to execute t
 
 In particular, I will implement two functions, `eval_expr` and `eval_mutop`. Each of these takes an `environment` (defined in [types.ml](./src/types.ml)) as a parameter, which acts as a map from variables to expressions. The `eval_expr` function evaluates an expression in the given environment, returning a `expr`, while `eval_mutop` takes a `mutop` -- a top-level directive -- and returns a possibly updated environment and any additional result.
 
-I will need to use Imperative OCaml (notably references) in this part of the project. This use is small, but important. More details below.
+I will need to use Imperative OCaml (notably references) in this part of the project. This use is small but important. More details below.
 
-### Ground Rules and Extra Info
+### Testing
 
-In addition to all of the built in OCaml features and feature we've taught about in class, I may also use library functions found in the Stdlib module, Str module, List module, and the Re module. 
-
-### Testing & Submitting
-
-Submit by running `submit` after pushing My code to GitHub. 
-
-All tests will be run on direct calls to My code, comparing My return values to the expected return values. Any other output (e.g., for My own debugging) will be ignored. I are free and encouraged to have additional output. The only requirement for error handling is that input that cannot be lexed/parsed according to the provided rules should raise an `InvalidInputException`. We recommend using relevant error messages when raising these exceptions, to make debugging easier. We are not requiring intelligent messages that pinpoint an error to help a programmer debug, but as I do this project I might find I see where I could add those.
-
-To test from the toplevel, run `dune utop src`. The necessary functions and types will automatically be imported for I.
-
-I can write My own tests which only test the parser by feeding it a custom token list. For example, to see how the expression `let x = true in x` would be parsed, I can construct the token list manually (e.g. in `utop`):
-
-```ocaml
-parse_expr [Tok_Let; Tok_ID "x"; Tok_Equal; Tok_Bool true; Tok_In; Tok_ID "x"];;
-```
-
-This way, I can work on the parser even if My lexer is not complete yet.
-
-Note that I do not need a working parser and lexer to implement part (B) --- all testing can be done on abstract syntax trees directly.
-
-```ocaml
-eval_expr [] (Let ("x", false, (Bool true), ID "x"));;
-- : expr = Bool true
-```
+All tests will be run on direct calls to my code, comparing my return values to the expected return values. Any other output (e.g., for My own debugging) will be ignored. To test from the toplevel, run `dune utop src`. The necessary functions and types will automatically be imported for you the user.
 
 #### Running Mutop
 
-If I have a working parser, lexer, and evaluator implementation, I can use play around with the interpreter by running `dune exec bin/mutop.exe`:
+Since I have a working parser, lexer, and evaluator implementation, you can use the interpreter by running `dune exec bin/mutop.exe`:
 
 ```ocaml
 $ dune exec bin/mutop.exe
@@ -68,15 +45,15 @@ mutop # a * b;;
 mutop # 
 ```
 
-Note that the `mutop` toplevel uses My implementations for `parse_mutop` and `eval_mutop` to execute MicroCaml expressions.
+Note that the `mutop` toplevel uses my implementations for `parse_mutop` and `eval_mutop` to execute MicroCaml expressions.
 
 ## Part A1: The Lexer (aka Scanner or Tokenizer)
 
 My parser will take as input a list of tokens; this list is produced by the *lexer* (also called a *scanner*) as a result of processing the input string. 
 
-Lexing is readily implemented by use of regular expressions, as demonstrated during lecture. I are permitted to use library functions from both the [`Re` module](https://ocaml.org/p/re/latest/doc/Re/index.html), and the [`Str`](https://v2.ocaml.org/api/Str.html) module. Note that I aren't strictly required to use regex functions, but I may find it VERY helpful.
+Lexing is readily implemented by the use of regular expressions.
 
-My lexer must be written in [lexer.ml](./src/lexer.ml). I will need to implement the following function: 
+My lexer is written in [lexer.ml](./src/lexer.ml). These are the functions I have implemented:
 
 #### `tokenize`
 
@@ -101,10 +78,10 @@ The `token` type is defined in [types.ml](./src/types.ml).
 Notes:
 - The lexer input is case sensitive.
 - Tokens can be separated by arbitrary amounts of whitespace, which My lexer should discard. Spaces, tabs ('\t') and newlines ('\n') are all considered whitespace.
-- When excaping characters with `\` within Ocaml strings/regexp I must use `\\` to escape from the string and regexp.
+- When escaping characters with `\` within Ocaml strings/regexp you must use `\\` to escape from the string and regexp.
 - If the beginning of a string could match multiple tokens, the **longest** match should be preferred, for example:
   - "let0" should not be lexed as `Tok_Let` followed by `Tok_Int 0`, but as `Tok_ID("let0")`, since it is an identifier.
-  - "330dlet" should be tokenized as `[Tok_Int 330; Tok_ID "dlet"]`. Arbitrary amounts of whitespace also includes no whitespace.
+  - "330dlet" should be tokenized as `[Tok_Int 330; Tok_ID "dlet"]`. Arbitrary amounts of whitespace also include no whitespace.
   - "(-1)" should not be lexed as `[Tok_LParen; Tok_Sub; Tok_Int(1); Tok_LParen]` but as `Tok_Int(-1)`. (This is further explained below)
 
 Most tokens only exist in one form (for example, the only way for `Tok_Concat` to appear in the program is as `^` and the only way for `Tok_Let` to appear in the program is as `let`). However, a few tokens have more complex rules. The regular expressions for these more complex rules are provided here:
@@ -116,7 +93,7 @@ Most tokens only exist in one form (for example, the only way for `Tok_Concat` t
   - *Examples of int parenthesization*:
     - `tokenize "x -1" = [Tok_ID "x"; Tok_Sub; Tok_Int 1]`
     - `tokenize "x (-1)" = [Tok_ID "x"; Tok_Int (-1)]`
-- `Tok_String of string`: Valid string will always be surrounded by `""` and **should accept any character except quotes** within them (as well as nothing). I have to "sanitize" the matched string to remove surrounding escaped quotes.
+- `Tok_String of string`: Valid string will always be surrounded by `""` and **should accept any character except quotes** within them (as well as nothing). You have to "sanitize" the matched string to remove surrounding escaped quotes.
   - *Regular Expression*: `\"[^\"]*\"`
   - *Examples*:
     - `tokenize "330" = [Tok_Int 330]`
@@ -167,8 +144,8 @@ Token Name | Lexical Representation
 `Tok_Semi` | `;`
 
 Notes:
-- My lexing code will feed the tokens into My parser, so a broken lexer can cause I to fail tests related to parsing. 
-- In the grammars given below, the syntax matching tokens (lexical representation) is used instead of the token name. For example, the grammars below will use `(` instead of `Tok_LParen`. 
+- My lexing code will feed the tokens into my parser, so a broken lexer can cause me to fail tests related to parsing. 
+- In the grammar given below, the syntax matching tokens (lexical representation) is used instead of the token name. For example, the grammar below will use `(` instead of `Tok_LParen`. 
 
 ## Part A2: Parsing MicroCaml Expressions
 
