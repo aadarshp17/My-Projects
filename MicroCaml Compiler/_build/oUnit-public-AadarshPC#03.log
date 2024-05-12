@@ -1,0 +1,38 @@
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:2:public_optimize_identity_mult is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:7:public_optimize_simple_equal is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:11:public_optimize_nested_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:17:public_optimize_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:17:public_optimize_record2 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:17:public_optimize_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Test public:20:public_optimize_record_select_let has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: expected: (Int 30)
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: student:  (Let ("x", (Record [((Lab "a"), (Int 10)); ((Lab "b"), (Int 20))]), (
+2024-04-18T02:42:06+00:00 AadarshPC#03 E:    Int 30)))
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: not equal in test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:22:public_typecheck_simple_and is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:26:public_typecheck_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:26:public_typecheck_simple_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:26:public_typecheck_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:29:public_typecheck_fun_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:33:public_typecheck_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:33:public_typecheck_record2 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:33:public_typecheck_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:37:public_err_div_by_zero.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:37:public_err_div_by_zero is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:37:public_err_div_by_zero.

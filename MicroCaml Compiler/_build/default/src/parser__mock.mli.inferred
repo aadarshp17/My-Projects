@@ -1,0 +1,45 @@
+type token =
+    THEN
+  | SEMI
+  | RPAREN
+  | REC
+  | RCURLY
+  | PLUS
+  | OR
+  | NOT
+  | NE
+  | MULT
+  | MINUS
+  | LT
+  | LPAREN
+  | LET
+  | LE
+  | LCURLY
+  | INTTYPE
+  | INT of int
+  | IN
+  | IF
+  | IDENT of string
+  | GT
+  | GOESTO
+  | GE
+  | FUN
+  | EQUALS
+  | EOF
+  | ELSE
+  | DOT
+  | DIV
+  | COLON
+  | BOOLTYPE
+  | BOOL of bool
+  | AND
+val menhir_begin_marker : int
+val xv_type_decl : Ast.exptype
+val xv_simple_expr : Ast.expr
+val xv_record_type : (Ast.label * Ast.exptype) list
+val xv_record_body : (Ast.label * Ast.expr) list
+val xv_prog : Ast.expr
+val xv_label : Ast.label
+val xv_expr : Ast.expr
+val xv_appl_expr : Ast.expr
+val menhir_end_marker : int

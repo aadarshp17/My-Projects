@@ -1,0 +1,24 @@
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:3:public_optimize_identity_div is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:9:public_optimize_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:9:public_optimize_simple_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:9:public_optimize_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:13:public_optimize_fun_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:19:public_optimize_record_select.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:19:public_optimize_record_select is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:19:public_optimize_record_select.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:23:public_typecheck_simple_equal is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:28:public_typecheck_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:28:public_typecheck_let_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:28:public_typecheck_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:32:public_typecheck_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:32:public_typecheck_record1 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:32:public_typecheck_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:36:public_typecheck_record_select_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:36:public_typecheck_record_select_let.

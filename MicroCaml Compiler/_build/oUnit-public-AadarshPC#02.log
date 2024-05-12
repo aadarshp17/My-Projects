@@ -1,0 +1,56 @@
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:1:public_optimize_identity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:5:public_optimize_zero_div.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:5:public_optimize_zero_div is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:5:public_optimize_zero_div.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:8:public_optimize_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:8:public_optimize_simple_if is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:8:public_optimize_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Test public:12:public_optimize_let_fun has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: expected: (Fun ("x", TInt, (ID "x")))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: student:  (Let ("x", (Int 5), (Fun ("x", TInt, (Int 5)))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: not equal in test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Test public:15:public_optimize_factorial has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: expected: (LetRec ("fact", (TArrow (TInt, TInt)),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (Fun ("x", TInt,
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       (If ((Binop (Equal, (ID "x"), (Int 1))), (Int 1),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          (Binop (Mult, (ID "x"),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:             (App ((ID "fact"), (Binop (Sub, (ID "x"), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          ))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       )),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (App ((ID "fact"), (Int 3)))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: student:  (LetRec ("fact", (TArrow (TInt, TInt)),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (Fun ("x", TInt,
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       (If ((Binop (Equal, (ID "x"), (Int 1))),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          (Binop (Add, (Int 0), (Int 1))),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          (Binop (Mult, (ID "x"),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:             (App ((ID "fact"), (Binop (Sub, (ID "x"), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          ))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       )),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (App ((ID "fact"), (Binop (Sub, (Int 4), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: not equal in test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:18:public_optimize_record3 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:25:public_typecheck_simple_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:30:public_typecheck_shadow is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:34:public_typecheck_record3 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:34:public_typecheck_record3.

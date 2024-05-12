@@ -1,0 +1,388 @@
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Runner: processes
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Chooser: simple
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration suite_name = "public"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration cache_filename = "/home/apatel66/cmsc330spring24/5th-project-aadarshp17/_build/oUnit-$(suite_name).cache"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration run_gc_full_major = "true"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration display = "true"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration results_style_1_X = "false"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration testdata_dir = "none"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration health_check_interval = "1."
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration verbose = "false"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration chooser = "simple"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration output_html_dir = "none"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration processes_kill_period = "5."
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration runner = "processes"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration shards = "4"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration processes_grace_period = "5."
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration log_encoding = "utf-8"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration output_junit_file = "none"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration ci = "false"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Configuration output_file = "/home/apatel66/cmsc330spring24/5th-project-aadarshp17/_build/oUnit-$(suite_name)-$(shard_id).log"
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Using 4 workers maximum.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Starting worker number AadarshPC#01.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#01 started.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Starting worker number AadarshPC#02.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#02 started.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Starting worker number AadarshPC#03.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#03 started.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Starting worker number AadarshPC#04.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#04 started.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add, public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add, public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add, public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:0:public_optimize_sanity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add, public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add, public:0:public_optimize_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:4:public_optimize_zero_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:1:public_optimize_identity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult, public:1:public_optimize_identity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:5:public_optimize_zero_div, public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:5:public_optimize_zero_div.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:5:public_optimize_zero_div, public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:4:public_optimize_zero_mult is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:5:public_optimize_zero_div, public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:2:public_optimize_identity_mult is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:4:public_optimize_zero_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:5:public_optimize_zero_div, public:4:public_optimize_zero_mult, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:6:public_optimize_simple_and, public:5:public_optimize_zero_div, public:3:public_optimize_identity_div, public:2:public_optimize_identity_mult.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:6:public_optimize_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and, public:5:public_optimize_zero_div, public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:5:public_optimize_zero_div is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and, public:5:public_optimize_zero_div, public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:3:public_optimize_identity_div is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:5:public_optimize_zero_div.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and, public:5:public_optimize_zero_div, public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and, public:3:public_optimize_identity_div.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:8:public_optimize_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:9:public_optimize_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:6:public_optimize_simple_and is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:6:public_optimize_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal, public:6:public_optimize_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:10:public_optimize_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:7:public_optimize_simple_equal is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:8:public_optimize_simple_if is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if, public:7:public_optimize_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:8:public_optimize_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:11:public_optimize_nested_fun, public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun, public:8:public_optimize_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:9:public_optimize_simple_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:12:public_optimize_let_fun, public:11:public_optimize_nested_fun, public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:9:public_optimize_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:12:public_optimize_let_fun, public:11:public_optimize_nested_fun, public:10:public_optimize_simple_let, public:9:public_optimize_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:10:public_optimize_simple_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:13:public_optimize_fun_fun, public:12:public_optimize_let_fun, public:11:public_optimize_nested_fun, public:10:public_optimize_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:10:public_optimize_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Test public:12:public_optimize_let_fun has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: expected: (Fun ("x", TInt, (ID "x")))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: student:  (Let ("x", (Int 5), (Fun ("x", TInt, (Int 5)))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: not equal in test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:13:public_optimize_fun_fun, public:12:public_optimize_let_fun, public:11:public_optimize_nested_fun, public:10:public_optimize_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:14:public_optimize_shadow, public:13:public_optimize_fun_fun, public:12:public_optimize_let_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:15:public_optimize_factorial, public:14:public_optimize_shadow, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:14:public_optimize_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:15:public_optimize_factorial, public:14:public_optimize_shadow, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:15:public_optimize_factorial, public:14:public_optimize_shadow, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: Test public:14:public_optimize_shadow has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: expected: (Int 42)
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: student:  (Let ("x", (Int 20), (Int 42)))
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: not equal in test public:14:public_optimize_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#01 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:15:public_optimize_factorial, public:14:public_optimize_shadow, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:14:public_optimize_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:15:public_optimize_factorial, public:14:public_optimize_shadow, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:16:public_optimize_record1, public:15:public_optimize_factorial, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:11:public_optimize_nested_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:16:public_optimize_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:16:public_optimize_record1, public:15:public_optimize_factorial, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:16:public_optimize_record1, public:15:public_optimize_factorial, public:13:public_optimize_fun_fun, public:11:public_optimize_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:17:public_optimize_record2, public:16:public_optimize_record1, public:15:public_optimize_factorial, public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:13:public_optimize_fun_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Test public:15:public_optimize_factorial has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: expected: (LetRec ("fact", (TArrow (TInt, TInt)),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (Fun ("x", TInt,
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       (If ((Binop (Equal, (ID "x"), (Int 1))), (Int 1),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          (Binop (Mult, (ID "x"),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:             (App ((ID "fact"), (Binop (Sub, (ID "x"), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          ))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       )),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (App ((ID "fact"), (Int 3)))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: student:  (LetRec ("fact", (TArrow (TInt, TInt)),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (Fun ("x", TInt,
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       (If ((Binop (Equal, (ID "x"), (Int 1))),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          (Binop (Add, (Int 0), (Int 1))),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          (Binop (Mult, (ID "x"),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:             (App ((ID "fact"), (Binop (Sub, (ID "x"), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:          ))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:       )),
+2024-04-18T02:42:06+00:00 AadarshPC#02 E:    (App ((ID "fact"), (Binop (Sub, (Int 4), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: not equal in test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#02 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:17:public_optimize_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:17:public_optimize_record2, public:16:public_optimize_record1, public:15:public_optimize_factorial, public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:16:public_optimize_record1 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:17:public_optimize_record2 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:17:public_optimize_record2, public:16:public_optimize_record1, public:15:public_optimize_factorial, public:13:public_optimize_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:16:public_optimize_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:17:public_optimize_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:19:public_optimize_record_select, public:18:public_optimize_record3, public:17:public_optimize_record2, public:16:public_optimize_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:21:public_typecheck_sanity_add, public:20:public_optimize_record_select_let, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:19:public_optimize_record_select.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:21:public_typecheck_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:21:public_typecheck_sanity_add, public:20:public_optimize_record_select_let, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Test public:20:public_optimize_record_select_let has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: expected: (Int 30)
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: student:  (Let ("x", (Record [((Lab "a"), (Int 10)); ((Lab "b"), (Int 20))]), (
+2024-04-18T02:42:06+00:00 AadarshPC#03 E:    Int 30)))
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: not equal in test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#03 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:21:public_typecheck_sanity_add, public:20:public_optimize_record_select_let, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:21:public_typecheck_sanity_add, public:20:public_optimize_record_select_let, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:22:public_typecheck_simple_and, public:21:public_typecheck_sanity_add, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:22:public_typecheck_simple_and, public:21:public_typecheck_sanity_add, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:19:public_optimize_record_select is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:22:public_typecheck_simple_and, public:21:public_typecheck_sanity_add, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:18:public_optimize_record3 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:19:public_optimize_record_select.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:21:public_typecheck_sanity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:22:public_typecheck_simple_and, public:21:public_typecheck_sanity_add, public:19:public_optimize_record_select, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:21:public_typecheck_sanity_add.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:23:public_typecheck_simple_equal, public:22:public_typecheck_simple_and, public:21:public_typecheck_sanity_add, public:18:public_optimize_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal, public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:24:public_typecheck_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal, public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:22:public_typecheck_simple_and is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal, public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal, public:22:public_typecheck_simple_and.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:26:public_typecheck_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:23:public_typecheck_simple_equal is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:24:public_typecheck_simple_if is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:24:public_typecheck_simple_if.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun, public:24:public_typecheck_simple_if, public:23:public_typecheck_simple_equal.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun, public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:26:public_typecheck_simple_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:27:public_typecheck_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun, public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:26:public_typecheck_simple_let.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:28:public_typecheck_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun, public:26:public_typecheck_simple_let, public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun, public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:25:public_typecheck_simple_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun, public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun, public:25:public_typecheck_simple_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:27:public_typecheck_nested_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:27:public_typecheck_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:28:public_typecheck_let_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun, public:27:public_typecheck_nested_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:28:public_typecheck_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:31:public_typecheck_factorial, public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun, public:28:public_typecheck_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:31:public_typecheck_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:29:public_typecheck_fun_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:32:public_typecheck_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow, public:29:public_typecheck_fun_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:33:public_typecheck_record2, public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:33:public_typecheck_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:33:public_typecheck_record2, public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:30:public_typecheck_shadow is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:33:public_typecheck_record2, public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:33:public_typecheck_record2, public:32:public_typecheck_record1, public:31:public_typecheck_factorial, public:30:public_typecheck_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:31:public_typecheck_factorial is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:34:public_typecheck_record3, public:33:public_typecheck_record2, public:32:public_typecheck_record1, public:31:public_typecheck_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:31:public_typecheck_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:32:public_typecheck_record1 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Start test public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:34:public_typecheck_record3, public:33:public_typecheck_record2, public:32:public_typecheck_record1, public:31:public_typecheck_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:32:public_typecheck_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:33:public_typecheck_record2 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:35:public_typecheck_record_select, public:34:public_typecheck_record3, public:33:public_typecheck_record2, public:32:public_typecheck_record1.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:33:public_typecheck_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Start test public:35:public_typecheck_record_select.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3, public:33:public_typecheck_record2.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Still 4 tests running : public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Start test public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Start test public:37:public_err_div_by_zero.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Still 4 tests running : public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: Test public:34:public_typecheck_record3 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: Test public:35:public_typecheck_record_select is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Still 4 tests running : public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#02 I: End test public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#01 I: End test public:35:public_typecheck_record_select.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Still 4 tests running : public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 4 tests running: public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let, public:35:public_typecheck_record_select, public:34:public_typecheck_record3.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: Test public:36:public_typecheck_record_select_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: Test public:37:public_err_div_by_zero is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Still 2 tests running : public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 2 tests running: public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#04 I: End test public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#03 I: End test public:37:public_err_div_by_zero.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Still 2 tests running : public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 2 tests running: public:37:public_err_div_by_zero, public:36:public_typecheck_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: 0 tests running: .
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#02 has ended.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#01 has ended.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#04 has ended.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Worker AadarshPC#03 has ended.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Used 4 worker during test execution.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Run 9 tests with shard AadarshPC#02.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Run 8 tests with shard AadarshPC#04.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Run 10 tests with shard AadarshPC#03.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Run 11 tests with shard AadarshPC#01.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Check health of shard AadarshPC#02, 3 times.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Check health of shard AadarshPC#04, 1 times.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Check health of shard AadarshPC#03, 1 times.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Check health of shard AadarshPC#01, 3 times.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: ==============
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Summary:
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:37:public_err_div_by_zero is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:36:public_typecheck_record_select_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:35:public_typecheck_record_select is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:34:public_typecheck_record3 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:33:public_typecheck_record2 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:32:public_typecheck_record1 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:31:public_typecheck_factorial is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:30:public_typecheck_shadow is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:29:public_typecheck_fun_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:28:public_typecheck_let_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:27:public_typecheck_nested_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:25:public_typecheck_simple_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:26:public_typecheck_simple_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:24:public_typecheck_simple_if is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:23:public_typecheck_simple_equal is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:22:public_typecheck_simple_and is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:21:public_typecheck_sanity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:18:public_optimize_record3 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:19:public_optimize_record_select is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Test public:20:public_optimize_record_select_let has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: expected: (Int 30)
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: student:  (Let ("x", (Record [((Lab "a"), (Int 10)); ((Lab "b"), (Int 20))]), (
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:    Int 30)))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: not equal in test public:20:public_optimize_record_select_let.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:17:public_optimize_record2 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:16:public_optimize_record1 is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Test public:15:public_optimize_factorial has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: expected: (LetRec ("fact", (TArrow (TInt, TInt)),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:    (Fun ("x", TInt,
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:       (If ((Binop (Equal, (ID "x"), (Int 1))), (Int 1),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:          (Binop (Mult, (ID "x"),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:             (App ((ID "fact"), (Binop (Sub, (ID "x"), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:          ))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:       )),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:    (App ((ID "fact"), (Int 3)))))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: student:  (LetRec ("fact", (TArrow (TInt, TInt)),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:    (Fun ("x", TInt,
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:       (If ((Binop (Equal, (ID "x"), (Int 1))),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:          (Binop (Add, (Int 0), (Int 1))),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:          (Binop (Mult, (ID "x"),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:             (App ((ID "fact"), (Binop (Sub, (ID "x"), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:          ))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:       )),
+2024-04-18T02:42:06+00:00 AadarshPC#00 E:    (App ((ID "fact"), (Binop (Sub, (Int 4), (Int 1)))))))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: not equal in test public:15:public_optimize_factorial.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:13:public_optimize_fun_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:11:public_optimize_nested_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Test public:14:public_optimize_shadow has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: expected: (Int 42)
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: student:  (Let ("x", (Int 20), (Int 42)))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: not equal in test public:14:public_optimize_shadow.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Test public:12:public_optimize_let_fun has failed.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Optimize error:
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: expected: (Fun ("x", TInt, (ID "x")))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: student:  (Let ("x", (Int 5), (Fun ("x", TInt, (Int 5)))))
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: not equal in test public:12:public_optimize_let_fun.
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-04-18T02:42:06+00:00 AadarshPC#00 E: 
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:10:public_optimize_simple_let is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:9:public_optimize_simple_fun is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:8:public_optimize_simple_if is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:7:public_optimize_simple_equal is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:6:public_optimize_simple_and is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:3:public_optimize_identity_div is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:5:public_optimize_zero_div is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:2:public_optimize_identity_mult is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:4:public_optimize_zero_mult is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:1:public_optimize_identity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Test public:0:public_optimize_sanity_add is successful.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Ran: 38 tests in: 0.11 seconds.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Cases: 38.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Tried: 38.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Errors: 0.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Failures: 4.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Skip: 0.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Todo: 0.
+2024-04-18T02:42:06+00:00 AadarshPC#00 I: Timeout: 0.

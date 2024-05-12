@@ -1,0 +1,5 @@
+lib: [
+  "_build/install/default/lib/parser_generator/META"
+  "_build/install/default/lib/parser_generator/dune-package"
+  "_build/install/default/lib/parser_generator/opam"
+]
